@@ -1,0 +1,73 @@
+* {
+
+margin: 0px; padding: 0px;
+
+}
+
+body{
+
+font-family: "Open Sans",sans-serif;
+height: 100%;
+overflow: hidden;
+
+}
+
+.ustbar{
+
+height: 40px;
+background: #eee;
+border-bottom: 1px solid #ddd;
+margin-bottom: 10px;
+
+}
+
+.menu-buton{
+
+line-height: 40px;
+padding: 0px 10px;
+background: #fafafa;
+float: left;
+cursor: pointer;
+
+}
+
+#tasiyici,#tasiyici-icerik{
+
+width: calc(100% - 40px);
+margin: auto;
+position: relative;
+opacity: 1;
+left: 0px;
+transition: 300ms all;
+transition-delay: 30ms;
+
+}
+
+.menu{
+
+width: 200px;
+background: #fafafa;
+height: 100%;
+position: fixed;
+top: 0px;
+left: -200px;
+border-right: 1px solid #ddd;
+transition: 300ms all; 
+
+}
+
+
+.menu li{
+    
+list-style: none;
+padding: 7px 10px;
+cursor: pointer;
+border-bottom: 1px solid #f1f1f1;
+
+}
+
+.menu li:hover{
+    
+background: #fafafa;
+
+}
